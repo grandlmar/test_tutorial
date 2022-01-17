@@ -33,7 +33,13 @@ input.onGesture(Gesture.Shake, function () {
 
 ## Schritt 3
 
-Erstelle eine ``||Variable: Variable||`` mit dem Namen Zufallszahl.
+Erstelle eine ``||variables: Variable||`` mit dem Namen Zufallszahl.
+
+```blocks
+input.onButtonPressed(Button.A, function () {
+    Zufallszahl = 0
+})
+```
 
 ## Schritt 4 
 

@@ -1,9 +1,7 @@
 input.onButtonPressed(Button.A, function () {
-	
+    Zufallszahl = 0
 })
-input.onGesture(Gesture.Shake, function () {
-	
-})
+let Zufallszahl = 0
 let Alphabet = [
 "A",
 "B",
