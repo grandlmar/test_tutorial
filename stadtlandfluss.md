@@ -33,7 +33,7 @@ input.onGesture(Gesture.Shake, function () {
 
 ## Schritt 3
 
-Erstelle eine ``||variables: Variable||`` mit dem Namen Zufallszahl.
+Erstelle eine ``||variables: Variable||`` mit dem Namen ``||variables: Zufallszahl||``.
 
 ```blocks
 input.onButtonPressed(Button.A, function () {
@@ -51,23 +51,23 @@ Generiere eine ganzzahlige ``||math:Zufallszahl||`` zwischen ``||math:0||`` und 
 
 ## Schritt 6 
 
-Ändere den Wert der Variable Zufallszahl auf die berechnete Zahl. 
+Ändere den Wert der Variablen ``||variables: Zufallszahl|`` auf die berechnete Zahl. 
 
 ## Schritt 7 
 
-Erstelle eine Variable mit dem Namen Zufallsbuchstabe.
+Erstelle eine ``||variables: Variable||`` mit dem Namen ``||variables: Zufallsbuchstabe||``.
 
 ## Schritt 8
 
-Wähle nun das Element an der (zufällig) generierten Position (= Wert der Variable Zufallszahl) im Array aus. 
+Wähle nun das Element an der (zufällig) generierten Position (= Wert der Variable ``||variables: Zufallszahl||``) im ``||array: Array||`` aus. 
 
 ## Schritt 9
 
-Setze den Wert der Variable Zufallsbuchstabe auf den zufällig ausgewählten Buchstaben.
+Setze den Wert der Variable ``||variables: Zufallsbuchstabe||`` auf den ``||math: zufällig||`` ausgewählten Buchstaben.
 
 ## Schritt 10
 
-Der Buchstabe soll am LED-Display für eine bestimmte Zeit angezeigt werden. 
+Der Buchstabe soll am ``||basic: LED-Display||`` für eine bestimmte ``||basic: Zeit||`` angezeigt werden. 
 
 ## Schritt 11
 Todo 
