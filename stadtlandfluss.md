@@ -49,25 +49,67 @@ Wie viele Elemente (Buchstaben) beinhaltet das erstellte Array? Merke dir die An
 
 Generiere eine ganzzahlige ``||math:Zufallszahl||`` zwischen ``||math:0||`` und der im vorigen Schritt ermittelten ``||math:Zahl||``. 
 
+```blocks
+input.onButtonPressed(Button.A, function () {
+    Zufallszahl = randint(0, 22)
+})
+```
+
 ## Schritt 6 
 
-Ändere den Wert der Variablen ``||variables: Zufallszahl|`` auf die berechnete Zahl. 
+Ändere den Wert der Variablen ``||variables: Zufallszahl|`` auf die berechnete Zahl.
+
+```blocks
+input.onButtonPressed(Button.A, function () {
+    Zufallszahl = randint(0, 22)
+})
+```
 
 ## Schritt 7 
 
 Erstelle eine ``||variables: Variable||`` mit dem Namen ``||variables: Zufallsbuchstabe||``.
 
+```blocks
+input.onButtonPressed(Button.A, function () {
+    Zufallszahl = randint(0, 22)
+    Zufallsbuchstabe = 0
+})
+```
+
 ## Schritt 8
 
 Wähle nun das Element an der (zufällig) generierten Position (= Wert der Variable ``||variables: Zufallszahl||``) im ``||array: Array||`` aus. 
+
+```blocks
+input.onButtonPressed(Button.A, function () {
+    Zufallszahl = randint(0, 22)
+    Zufallsbuchstabe = Alphabet[Zufallszahl]
+})
+```
+
 
 ## Schritt 9
 
 Setze den Wert der Variable ``||variables: Zufallsbuchstabe||`` auf den ``||math: zufällig||`` ausgewählten Buchstaben.
 
+```blocks
+input.onButtonPressed(Button.A, function () {
+    Zufallszahl = randint(0, 22)
+    Zufallsbuchstabe = Alphabet[Zufallszahl]
+})
+```
+
+
 ## Schritt 10
 
 Der Buchstabe soll am ``||basic: LED-Display||`` für eine bestimmte ``||basic: Zeit||`` angezeigt werden. 
 
-## Schritt 11
-Todo 
+```blocks
+input.onButtonPressed(Button.A, function () {
+    Zufallszahl = randint(0, 22)
+    Zufallsbuchstabe = Alphabet[Zufallszahl]
+    basic.showString("" + (Zufallsbuchstabe))
+    basic.pause(3000)
+    basic.clearScreen()
+})
+```
