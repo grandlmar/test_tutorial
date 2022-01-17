@@ -43,4 +43,31 @@ input.onButtonPressed(Button.A, function () {
 
 ## Schritt 4 
 
-Todo
+Wie viele Elemente (Buchstaben) beinhaltet das erstellte Array? Merke dir die Anzahl!
+
+## Schritt 5 
+
+Generiere eine ganzzahlige ``||math:Zufallszahl||`` zwischen ``||math:0||`` und der im vorigen Schritt ermittelten ``||math:Zahl||``. 
+
+## Schritt 6 
+
+Ändere den Wert der Variable Zufallszahl auf die berechnete Zahl. 
+
+## Schritt 7 
+
+Erstelle eine Variable mit dem Namen Zufallsbuchstabe.
+
+## Schritt 8
+
+Wähle nun das Element an der (zufällig) generierten Position (= Wert der Variable Zufallszahl) im Array aus. 
+
+## Schritt 9
+
+Setze den Wert der Variable Zufallsbuchstabe auf den zufällig ausgewählten Buchstaben.
+
+## Schritt 10
+
+Der Buchstabe soll am LED-Display für eine bestimmte Zeit angezeigt werden. 
+
+## Schritt 11
+Todo 
