@@ -1,5 +1,5 @@
 {
-    "name": "test_tutorial",
+    "name": "tutorial_stadtlandfluss",
     "description": "",
     "dependencies": {
         "core": "*",
@@ -10,13 +10,14 @@
         "main.blocks",
         "main.ts",
         "README.md",
-        "stadtlandfluss.md"
+        "stadtlandfluss.md",
+        "_locales/de/stadtlandfluss.md"
     ],
     "testFiles": [
         "test.ts"
     ],
     "targetVersions": {
-        "target": "4.0.16",
+        "target": "4.0.18",
         "targetId": "microbit"
     },
     "supportedTargets": [
