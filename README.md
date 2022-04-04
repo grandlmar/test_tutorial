@@ -9,6 +9,7 @@ Dieses Repository kann als **Erweiterung** in MakeCode hinzugefügt werden.
 * klicke auf **Neues Projekt**
 * klicke auf **Erweiterungen** unter dem Zahnrad-Menü
 * nach **https://github.com/grandlmar/test_tutorial** suchen und importieren
+* direkt **https://makecode.microbit.org/#tutorial:github:grandlmar/test_tutorial/stadtlandfluss**
 
 ## Dieses Projekt bearbeiten ![Build Status Abzeichen](https://github.com/grandlmar/test_tutorial/workflows/MakeCode/badge.svg)
 
